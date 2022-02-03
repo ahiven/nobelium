@@ -4,25 +4,25 @@ const BLOG = {
   email: 'i@craigary.net',
   link: 'https://nobelium.vercel.app',
   description: 'This gonna be an awesome website.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
+  since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://twitter.com/ahiven',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
+  notionPageId: process.env.fa9a793b0a1046f099d1827a4cc42288?v=8ce190382deb473890e475c7475afc26, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
     provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
