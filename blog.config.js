@@ -22,7 +22,7 @@ const BLOG = {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env.fa9a793b0a1046f099d1827a4cc42288?v=8ce190382deb473890e475c7475afc26, // DO NOT CHANGE THIS！！！
+  notionPageId: process.fa9a793b0a1046f099d1827a4cc42288?v=8ce190382deb473890e475c7475afc26, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
     provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
